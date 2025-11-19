@@ -1,0 +1,61 @@
+/* 1. ตั้งค่าพื้นฐาน (Body) */
+body {
+    background-color: #55534d; 
+    padding: 0;
+    color: #000000;
+}
+
+/* 2. จัดรูปแบบส่วนหัว (Header) */
+.profile-header {
+    text-align: center;
+    padding: 4  0px;
+    background-color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+/* 3. รูปภาพโปรไฟล์ */
+.profile-pic {
+    width:  400px; 
+    height: 400px; 
+    margin: 10px auto; /* จัดให้อยู่ตรงกลางแนวนอน */
+    display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
+    border: 3px solid #0d0d0e;
+    
+}
+.game-img {
+    width: 700px; /* ปรับขนาดให้สมดุลขึ้น */
+    height: 400px; /* ปรับขนาดให้สมดุลขึ้น */
+    margin: 10px auto; /* จัดให้อยู่ตรงกลางแนวนอน */
+    display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
+    border: 3px solid #0d0d0e;
+}
+.music-img {
+    width: 4; /* ปรับขนาดให้สมดุลขึ้น */
+    height: 400px; /* ปรับขนาดให้สมดุลขึ้น */
+    margin: 10px auto; /* จัดให้อยู่ตรงกลางแนวนอน */
+    display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
+    border: 3px solid #0d0d0e;
+}
+/* 4. หัวข้อหลักและย่อย (Headings) */
+h1 {
+    color: #000000; 
+    font-size: 2.2em;
+    margin-top: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #000000; 
+    border-bottom: 2px solid #0d0d0e; /* ขีดเส้น */
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* 5. เนื้อหาหลัก (Content) */
+.profile-content {
+    max-width: 800px;
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+    padding: 15px;
+    background-color: rgb(255, 255, 255); /* พื้นหลังสีขาว */
+    border: 1px solid #000000;
+}
