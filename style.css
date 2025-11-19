@@ -31,19 +31,12 @@ body {
     height: auto; 
     margin: 25px auto; 
     display: block; 
-    border: 3px solid #34495E; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
-    object-fit: cover;
 }
 .music-img {
     width: 300px; 
     height: 450px; 
     margin: 25px auto; 
     display: block; 
-    border: 3px solid #E67E22; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    object-fit: cover; 
 }
 /* 4. หัวข้อหลักและย่อย (Headings) */
 h1 {
@@ -75,6 +68,7 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
 
 }
+
 
 
 
