@@ -23,16 +23,11 @@ body {
     margin: 10px auto; 
     display: block; 
     border: 5px solid #E67E22;
-    border-radius: 50%; /* ทำให้เป็นวงกลม */   
-    object-fit: cover; /* สำคัญ: เพื่อให้รูปภาพไม่บิดเบี้ยวในขนาดวงกลม */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
 }
 
 .game-img, .music-img {
     width: 100%; /* ให้ความกว้างเต็มพื้นที่ของ .profile-content */
-    max-width: 700px; 
-    height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
-    aspect-ratio: 16 / 9; /* กำหนดอัตราส่วนให้เป็นแบบภาพยนตร์/เกม */
     margin: 20px auto; 
     display: block; 
     border: 2px solid #34495E; 
@@ -71,3 +66,4 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
 
 }
+
