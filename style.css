@@ -26,14 +26,19 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
 }
 
-.game-img, .music-img {
-    width: 100%; /* ให้ความกว้างเต็มพื้นที่ของ .profile-content */
-    max-width: 700px; 
-    margin: 20px auto; 
-    display: block; 
-    border: 2px solid #34495E; 
-    border-radius: 8px; 
-    object-fit: cover;
+.game-img {
+    width: 700px; /* ปรับขนาดให้สมดุลขึ้น */
+    height: 400px; /* ปรับขนาดให้สมดุลขึ้น */
+    margin: 10px auto; /* จัดให้อยู่ตรงกลางแนวนอน */
+    display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
+    border: 3px solid #0d0d0e;
+}
+.music-img {
+    width: 0; /* ปรับขนาดให้สมดุลขึ้น */
+    height: 400px; /* ปรับขนาดให้สมดุลขึ้น */
+    margin: 10px auto; /* จัดให้อยู่ตรงกลางแนวนอน */
+    display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
+    border: 3px solid #0d0d0e;
 }
 
 /* 4. หัวข้อหลักและย่อย (Headings) */
@@ -67,5 +72,6 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
 
 }
+
 
 
