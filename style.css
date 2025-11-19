@@ -33,7 +33,8 @@ body {
     display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
     border: 3px solid #0d0d0e;
 }
-width: 400px; /* ความกว้าง */
+.music-img {
+    width: 400px; /* ความกว้าง */
     height: 600px; /* ความสูงมากกว่าความกว้าง */
     margin: 20px auto; 
     display: block; 
@@ -72,6 +73,7 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
 
 }
+
 
 
 
