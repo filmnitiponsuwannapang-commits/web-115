@@ -27,20 +27,25 @@ body {
 }
 
 .game-img {
-    width: 700px; /* ปรับขนาดให้สมดุลขึ้น */
-    height: 400px; /* ปรับขนาดให้สมดุลขึ้น */
-    margin: 100px auto; /* จัดให้อยู่ตรงกลางแนวนอน */
-    display: block; /* สำคัญ: เพื่อให้ margin auto ทำงาน */
-    border: 3px solid #0d0d0e;
-}
-.music-img {
-    width: 300px; /* ความกว้าง */
-    height: 450px; /* ความสูงมากกว่าความกว้าง */
-    margin: 100px auto; 
+    width: 100%; 
+    max-width: 700px; /* จำกัดความกว้างสูงสุด */
+    height: auto; 
+    margin: 25px auto; 
     display: block; 
-    border: 2px solid #34495E; 
-    border-radius: 8px; 
-    object-fit: cover; /* ตรวจสอบให้แน่ใจว่ารูปภาพจะเต็มกรอบ */
+    border: 3px solid #34495E; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    object-fit: cover;
+}
+
+.music-img {
+    width: 300px; 
+    height: 450px; 
+    margin: 25px auto; 
+    display: block; 
+    border: 3px solid #E67E22; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    object-fit: cover; 
 }
 /* 4. หัวข้อหลักและย่อย (Headings) */
 h1 {
@@ -73,6 +78,7 @@ h2 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
 
 }
+
 
 
 
