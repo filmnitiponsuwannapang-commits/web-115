@@ -1,73 +1,73 @@
-/* 1. ตั้งค่าพื้นฐาน (Body) - โทนพื้นหลังสีเทาเข้ม/น้ำเงินเข้ม */
+/* 1. ตั้งค่าพื้นฐาน (Body) */
 body {
-    background-color: #F8F8F8; /* เปลี่ยนเป็นสีเทาอ่อนมาก/ขาวนวล เพื่อให้สบายตา */
+    background-color: #F8F8F8; 
     padding: 0;
-    margin: 0; /* ลบ margin เริ่มต้นของ body ออก */
-    color: #333333; /* สีตัวอักษรหลักเป็นสีเทาเข้ม แทนสีดำสนิท */
-    font-family: 'Arial', sans-serif; /* เพิ่มฟอนต์ที่อ่านง่าย */
+    margin: 0; 
+    color: #333333; 
+    font-family: 'Arial', sans-serif; 
 }
 
-/* 2. จัดรูปแบบส่วนหัว (Header) - โทนสีเข้ม เน้นความโดดเด่น */
+/* 2. จัดรูปแบบส่วนหัว (Header) */
 .profile-header {
     text-align: center;
-    padding: 40px 0; /* ปรับ spacing ให้สมบูรณ์ */
-    background-color: #2C3E50; /* สีน้ำเงินเข้ม (Navy Blue) ดูหรูหรา */
+    padding: 40px 0;
+    background-color: #c3e1ff; 
     margin-bottom: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ดูมีมิติ */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* 3. รูปภาพโปรไฟล์และรูปภาพอื่นๆ */
 .profile-pic {
-    width: 250px; /* ปรับขนาดให้เล็กลงเพื่อความสมดุล */
-    height: 250px; 
+    width: 500px; 
+    height: 500px; 
     margin: 10px auto; 
     display: block; 
-    border: 5px solid #E67E22; /* เส้นขอบหนาขึ้น ใช้สีส้ม/ทองแดงเป็นสีเน้น (Accent Color) */
-    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    border: 5px solid #E67E22;
+    border-radius: 50%; /* ทำให้เป็นวงกลม */   
     object-fit: cover; /* สำคัญ: เพื่อให้รูปภาพไม่บิดเบี้ยวในขนาดวงกลม */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้ดูนูนขึ้น */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
 }
 
 .game-img, .music-img {
     width: 100%; /* ให้ความกว้างเต็มพื้นที่ของ .profile-content */
-    max-width: 700px; /* จำกัดความกว้างสูงสุด */
+    max-width: 700px; 
     height: auto; /* ให้ความสูงปรับตามอัตราส่วน */
     aspect-ratio: 16 / 9; /* กำหนดอัตราส่วนให้เป็นแบบภาพยนตร์/เกม */
     margin: 20px auto; 
     display: block; 
-    border: 2px solid #34495E; /* ขอบสีน้ำเงินเข้มรอง */
-    border-radius: 8px; /* ขอบมนเล็กน้อย */
+    border: 2px solid #34495E; 
+    border-radius: 8px; 
     object-fit: cover;
 }
 
 /* 4. หัวข้อหลักและย่อย (Headings) */
 h1 {
-    color: #ECF0F1; /* สีขาวนวลตัดกับพื้นหลังสีน้ำเงินเข้มของ Header */
-    font-size: 2.8em; /* ขนาดใหญ่ขึ้น */
+    color: #34495E; 
+    font-size: 2.8em; 
     margin-top: 5px;
     margin-bottom: 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* เพิ่มมิติ */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
 }
 
 h2 {
     text-align: center;
-    color: #34495E; /* สีน้ำเงินเข้ม */
-    border-bottom: 3px solid #E67E22; /* ใช้ Accent Color เป็นเส้นแบ่ง */
+    color: #34495E; 
+    border-bottom: 3px solid #E67E22; 
     padding-bottom: 10px;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 1.8em;
-    text-transform: uppercase; /* ทำให้เป็นตัวพิมพ์ใหญ่เพื่อความโดดเด่น */
+    text-transform: uppercase; 
 }
 
 /* 5. เนื้อหาหลัก (Content) - พื้นที่สีขาวสะอาดตา */
 .profile-content {
-    max-width: 900px; /* เพิ่มความกว้างสูงสุดเล็กน้อย */
-    margin: 0 auto 30px auto; /* จัดให้อยู่ตรงกลาง และมีช่องว่างด้านล่าง */
+    max-width: 900px; 
+    margin: 0 auto 30px auto; 
     padding: 30px;
-    background-color: #FFFFFF; /* พื้นหลังสีขาวบริสุทธิ์ */
-    border: 1px solid #DDDDDD; /* เส้นขอบสีเทาอ่อน */
-    border-radius: 10px; /* ขอบมนสวยงาม */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ลอยขึ้น */
-    line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่ายขึ้น */
+    background-color: #FFFFFF; 
+    border: 1px solid #DDDDDD; 
+    border-radius: 10px; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+
 }
